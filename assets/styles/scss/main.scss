@@ -239,20 +239,21 @@ button {
         .back-phone {
             position: absolute;
             top: 65px;
-            left: 95px;
+            left: 35px;
             z-index: 1;
-            transform: rotate();
+            width: 380px;
         }
         .front-phone {
             position: absolute;
             top: 10px;
-            right: 65px;
+            right: -25px;
             z-index: 3;
+            width: 500px;
         }
         .triangle {
             position: absolute;
-            top: 120px;
-            left: 210px;
+            top: 110px;
+            left: 220px;
             z-index: 2;
 
         }
@@ -698,7 +699,7 @@ button {
                 max-height: 130px;
                 overflow-y: scroll;
                 position: relative;
-                background-color: var(--white);
+                background-color: var(--light);
                 z-index: 5;
                 visibility: hidden;
                 transition: .3s;
@@ -720,6 +721,17 @@ button {
                     background-color: var(--red);
                     color: var(--white);
                 }
+            }
+            
+            .fa-chevron-down {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                transition: .3s;
+                cursor: pointer;
+            }
+            .rotateChevron {
+                transform: rotate(180deg);
             }
         }
 
