@@ -637,7 +637,7 @@ button:hover {
 .our-advantages-phone .back-phone {
   position: absolute;
   top: 65px;
-  left: -130px;
+  left: -110px;
   z-index: 1;
   width: 550px;
 }
@@ -653,7 +653,7 @@ button:hover {
 .our-advantages-phone .triangle {
   position: absolute;
   top: 190px;
-  left: 100px;
+  left: 110px;
   z-index: 2;
   width: 220px;
 }
