@@ -650,6 +650,16 @@ button:hover {
   z-index: 2;
 }
 
+.our-advantages__button {
+  width: 180px;
+  height: 56px;
+  margin-top: 60px;
+}
+
+.our-advantages__button:hover {
+  border: 3px solid var(--red);
+}
+
 .our-service {
   max-width: 1920px;
   height: 806px;
@@ -796,6 +806,8 @@ button:hover {
 .our-service__button {
   width: 180px;
   height: 56px;
+  margin-left: 140px;
+  margin-top: 65px;
 }
 
 .become-member {
@@ -1048,11 +1060,17 @@ button:hover {
   font-weight: 300;
   font-size: 18px;
   color: var(--gray);
+  margin-top: 24px;
 }
 
 .bidding-enhanced__button {
   width: 180px;
   height: 56px;
+  margin-top: 40px;
+}
+
+.bidding-enhanced__button:hover {
+  border: 3px solid var(--red);
 }
 
 .footer {

@@ -200,6 +200,7 @@ button {
         align-items: start;
         justify-content: space-between;
         flex-wrap: wrap;
+
     }
     &-list {
         width: 45%;
@@ -250,6 +251,15 @@ button {
             left: 210px;
             z-index: 2;
 
+        }
+    }
+    &__button {
+        width: 180px;
+        height: 56px;
+        margin-top: 60px;
+
+        &:hover {
+            border: 3px solid var(--red);
         }
     }
 }
@@ -358,6 +368,8 @@ button {
     &__button {
         width: 180px;
         height: 56px;
+        margin-left: 140px;
+        margin-top: 65px;
     }
 }
 
@@ -523,10 +535,16 @@ button {
         font-weight: 300;
         font-size: 18px;
         color: var(--gray); 
+        margin-top: 24px;
     }
     &__button {
         width: 180px;
         height: 56px;
+        margin-top: 40px;
+
+        &:hover {
+            border: 3px solid var(--red);
+        }
     }
 }
 
