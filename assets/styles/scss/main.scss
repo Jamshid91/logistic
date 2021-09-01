@@ -188,6 +188,7 @@ button {
     padding: 120px 0;
     max-width: 1920px;
     margin: 0 auto;
+    overflow: hidden;
     .row {
         margin-left: 60px;
     }
@@ -239,22 +240,23 @@ button {
         .back-phone {
             position: absolute;
             top: 65px;
-            left: 35px;
+            left: -130px;
             z-index: 1;
-            width: 380px;
+            width: 550px;
         }
         .front-phone {
             position: absolute;
             top: 10px;
-            right: -25px;
+            right: -100px;
             z-index: 3;
-            width: 500px;
+            width: 700px;
         }
         .triangle {
             position: absolute;
-            top: 110px;
-            left: 220px;
+            top: 190px;
+            left: 100px;
             z-index: 2;
+            width: 220px;
 
         }
     }
@@ -460,6 +462,7 @@ button {
         &__macbook-img {
             position: relative;
             z-index: 1;
+            width: 480px;
         }
         .mackBook-front {
             width: 360px;
