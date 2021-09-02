@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 @font-face {
   font-family: 'Oswald';
-  src: url(../../fonts/Oswald-ExtraLight.ttf);
+  src: url(../../fonts/Oswald-ExtraLight.ttf) format("ttf");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'Oswald';
-  src: url(../../fonts/Oswald-Light.ttf);
+  src: url(../../fonts/Oswald-Light.ttf) format("ttf");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: 'Oswald';
-  src: url(../../fonts/Oswald-Regular.ttf);
+  src: url(../../fonts/Oswald-Regular.ttf) format("ttf");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -25,7 +25,7 @@
 
 @font-face {
   font-family: 'Oswald';
-  src: url(../../fonts/Oswald-Medium.ttf);
+  src: url(../../fonts/Oswald-Medium.ttf) format("ttf");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -33,7 +33,7 @@
 
 @font-face {
   font-family: 'Oswald';
-  src: url(../../fonts/Oswald-SemiBold.ttf);
+  src: url(../../fonts/Oswald-SemiBold.ttf) format("ttf");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -41,7 +41,7 @@
 
 @font-face {
   font-family: 'Oswald';
-  src: url(../../fonts/Oswald-Bold.ttf);
+  src: url(../../fonts/Oswald-Bold.ttf) format("ttf");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -49,7 +49,7 @@
 
 @font-face {
   font-family: 'OpenSans';
-  src: url(../../fonts/OpenSans-Light.ttf);
+  src: url(../../fonts/OpenSans-Light.ttf) format("ttf");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -57,7 +57,7 @@
 
 @font-face {
   font-family: 'OpenSans';
-  src: url(../../fonts/OpenSans-Regular.ttf);
+  src: url(../../fonts/OpenSans-Regular.ttf) format("ttf");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -65,7 +65,7 @@
 
 @font-face {
   font-family: 'OpenSans';
-  src: url(../../fonts/OpenSans-SemiBold.ttf);
+  src: url(../../fonts/OpenSans-SemiBold.ttf) format("ttf");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -73,7 +73,7 @@
 
 @font-face {
   font-family: 'FiraSans';
-  src: url(../../fonts/FiraSans-Light.ttf);
+  src: url(../../fonts/FiraSans-Light.ttf) format("ttf");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
