@@ -2065,6 +2065,10 @@ button:hover {
 }
 
 @media screen and (max-width: 420px) {
+  .header .nav .email-icon,
+  .header .nav .phone-icon {
+    margin-right: 4px;
+  }
   .header .nav-item__button {
     margin-top: 20px;
   }

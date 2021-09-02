@@ -724,6 +724,10 @@
 @media screen and(max-width: 420px) {
     .header {
         .nav {
+            .email-icon,
+                .phone-icon {
+                    margin-right: 4px;
+                }
             &-item {
                 &__button {
                     margin-top: 20px;
