@@ -24,8 +24,8 @@
 }
 
 @font-face {
-  font-family: 'Oswald';
-  src: url(../../fonts/Oswald-Medium.ttf) format("ttf");
+  font-family: 'Oswaldmedium';
+  src: url(../../fonts/Oswaldmedium.woff2) format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -345,7 +345,6 @@
 
 body {
   position: relative;
-  font-family: "Oswald", sans-serif;
 }
 
 .container {
@@ -512,10 +511,9 @@ button:hover {
 }
 
 .header-title__text {
-  font-family: 'Oswald';
+  font-family: 'Oswaldmedium';
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
   font-size: 64px;
   line-height: 80px;
   color: var(--light);
@@ -1078,6 +1076,7 @@ button:hover {
 
 .bidding-enhanced-video .video {
   width: 100%;
+  -webkit-backface-visibility: hidden !important;
 }
 
 .bidding-enhanced-video .plyr__poster {

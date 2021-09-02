@@ -12,7 +12,6 @@
 
 body {
     position: relative;
-    font-family: "Oswald", sans-serif;
 }
 
 
@@ -146,7 +145,10 @@ button {
             color: var(--red);
         }
         &__text {
-            @include font(500);
+            // @include font(500);
+            font-family: 'Oswaldmedium';
+            font-weight: 500;
+            font-style: normal;
             font-size: 64px;
             line-height: 80px;
             color: var(--light);
@@ -557,6 +559,7 @@ button {
         position: relative;
         .video {
             width: 100%;
+            -webkit-backface-visibility: hidden !important;
         }
         .plyr__poster {
             background-size: cover;
