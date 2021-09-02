@@ -636,6 +636,9 @@
     // FAQ
     .faq {
         padding: 50px 0;
+        .row {
+            margin-left: 0;
+        }
         &__title {
             font-size: 40px;
             line-height: 50px;
@@ -898,5 +901,25 @@
                 width: 340px;
             }
         }
+        
+    &-item {
+
+        &-title {
+            padding: 0 10px;
+            &__text {
+                font-size: 17px;
+            }
+            .fa-file-search {
+                font-size: 20px;         
+            }
+        }
+        &-info {
+            padding: 10px;
+            &__text {
+                font-size: 16px;   
+            }
+        }
+    }
+
     }
 }

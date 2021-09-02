@@ -1985,6 +1985,9 @@ button:hover {
   .faq {
     padding: 50px 0;
   }
+  .faq .row {
+    margin-left: 0;
+  }
   .faq__title {
     font-size: 40px;
     line-height: 50px;
@@ -2230,5 +2233,20 @@ button:hover {
   }
   .faq-macbook__macbook-img {
     width: 340px;
+  }
+  .faq-item-title {
+    padding: 0 10px;
+  }
+  .faq-item-title__text {
+    font-size: 17px;
+  }
+  .faq-item-title .fa-file-search {
+    font-size: 20px;
+  }
+  .faq-item-info {
+    padding: 10px;
+  }
+  .faq-item-info__text {
+    font-size: 16px;
   }
 }
