@@ -608,8 +608,8 @@
         }
     }
 
-        // How to be a member of our service
-        .become-member {
+    // How to be a member of our service
+    .become-member {
             padding: 50px 0;
             .row {
                 margin-left: 20px;
@@ -630,7 +630,7 @@
                     margin-left: 15px;
                 }
             }
-        }
+    }
     
     // FAQ
     .faq {
@@ -650,8 +650,7 @@
             }
         }
     }
-
-       
+ 
     // bidding-enhanced
     .bidding-enhanced {
         padding: 50px 0;
@@ -704,9 +703,6 @@
     // Modal
 
 .modal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     &-dialog {
         display: flex;
         align-items: center;
@@ -726,17 +722,25 @@
         .nav {
             &-item {
                 &__button {
-                    margin-top: 0px;
+                    margin-top: 20px;
+                }
+            }
+            
+            &-email {
+                &__text {
+                    letter-spacing: 0px;
                 }
             }
         }
         &-title {
             &__sup-text {
                 font-size: 15px;
+                margin-bottom: 0;
             }
             &__text {
                 font-size: 42px;
                 line-height: 50px;
+                // margin-top: -30px !important;
             }
             &-store {
                 display: flex;
@@ -781,11 +785,11 @@
             height: 450px;
             .back-phone {
                 width: 300px;
-                left: -80px;
+                left: -60px;
             }
             .front-phone {
                 width: 400px;
-                left: 0px;
+                left: 10px;
             }
             .back-circle {
                 width: 120%;
@@ -838,7 +842,7 @@
             margin-left: -50px;
         }
         &-list:nth-child(2) {
-            margin-left: -45px;
+            margin-left: -50px;
         }
         &__button {
             display: none;
