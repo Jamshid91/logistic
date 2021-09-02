@@ -275,6 +275,7 @@
                 display: flex;
                 align-items: start;
                 flex-direction: column;
+                margin-top: 40px;
                 .googlePlay {
                     margin-left: 0;
                     margin-top: 20px;
@@ -283,7 +284,7 @@
             &-hand {
                 .header-circle {
                     top: 0px;
-                    right: -120px;
+                    right: -50px;
     
                     &__img {
                         width: 500px;
@@ -373,9 +374,6 @@
                 margin-right: 15px;
             }
         }
-        &-list:first-child{
-            margin-left: -10px;
-        }
         &__button {
             width: 150px;
             height: 45px;
@@ -404,6 +402,9 @@
     
     // FAQ
     .faq {
+        .row {
+            margin-left: 20px;
+        }
         padding: 50px 0;
         &__title {
             font-size: 40px;
@@ -411,12 +412,12 @@
         }
         &-macbook {
             &__faq-img {
-                left: -10px;
+                left: 20px;
                 top: -70px;
                 width: 180px;
             }
             &__macbook-img {
-                width: 470px;
+                width: 550px;
             }
         }
     }
@@ -544,14 +545,14 @@
             }
             .back-phone {
                 top: 65px;
-                left: -110px;
-                width: 450px;
+                left: -90px;
+                width: 400px;
                 z-index: -2;
             }
             .front-phone {
                 top: 10px;
-                right: -100px;
-                width: 550px;
+                right: -80px;
+                width: 500px;
                 z-index: -1;
             }
         }
@@ -592,8 +593,8 @@
         }
     
         &-item {
-            margin-top: 0px;
-            margin: 0;
+            margin: 0 ;
+            padding: 0;
         }
         &-list {
             font-size: 25px;
@@ -834,15 +835,11 @@
             margin-top: 100px;
         }
         &-list {
-            margin-left: -50px;
-            font-size: 22px;
+            font-size: 20px;
             word-wrap: break-word;
-        }
-        &-list:first-child{
-            margin-left: -50px;
-        }
-        &-list:nth-child(2) {
-            margin-left: -50px;
+            .check-circle {
+                margin-right: 10px;
+            }
         }
         &__button {
             display: none;
@@ -869,6 +866,15 @@
                 font-size: 20px;
                 width: 80%;
             }
+        }
+        
+        .plyr__control--overlaid{
+            width: 30px;
+            height: 30px;
+            font-size: 20px;
+        }
+        .plyr__control svg {
+            width: var(--plyr-control-icon-size, 18px);
         }
     }
         

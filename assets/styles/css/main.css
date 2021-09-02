@@ -695,6 +695,7 @@ button:hover {
   background-repeat: no-repeat;
   position: relative;
   padding-top: 100px;
+  overflow: hidden;
 }
 
 .our-service .row {
@@ -761,6 +762,7 @@ button:hover {
 
 .our-service-item {
   margin-top: 70px;
+  padding: 0;
 }
 
 .our-service-list {
@@ -841,6 +843,7 @@ button:hover {
 
 .become-member {
   padding: 120px 0;
+  overflow: hidden;
 }
 
 .become-member .row {
@@ -939,6 +942,7 @@ button:hover {
 .faq {
   padding-top: 40px;
   padding-bottom: 120px;
+  overflow: hidden;
 }
 
 .faq__title {
@@ -1048,6 +1052,7 @@ button:hover {
   margin: 0 auto;
   background-color: var(--light);
   padding: 120px 0;
+  overflow: hidden;
 }
 
 .bidding-enhanced .row {
@@ -1073,6 +1078,11 @@ button:hover {
 
 .bidding-enhanced-video .video {
   width: 100%;
+}
+
+.bidding-enhanced-video .plyr__poster {
+  -webkit-background-size: cover;
+          background-size: cover;
 }
 
 .bidding-enhanced-video .plyr__control--overlaid {
@@ -1147,6 +1157,7 @@ button:hover {
   margin: 0 auto;
   padding: 70px 0;
   background-color: var(--dark);
+  overflow: hidden;
 }
 
 .footer-text {
@@ -1628,6 +1639,7 @@ button:hover {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-top: 40px;
   }
   .header-title-store .googlePlay {
     margin-left: 0;
@@ -1635,7 +1647,7 @@ button:hover {
   }
   .header-title-hand .header-circle {
     top: 0px;
-    right: -120px;
+    right: -50px;
   }
   .header-title-hand .header-circle__img {
     width: 500px;
@@ -1724,9 +1736,6 @@ button:hover {
   .our-service-list .check-circle {
     margin-right: 15px;
   }
-  .our-service-list:first-child {
-    margin-left: -10px;
-  }
   .our-service__button {
     width: 150px;
     height: 45px;
@@ -1748,17 +1757,20 @@ button:hover {
   .faq {
     padding: 50px 0;
   }
+  .faq .row {
+    margin-left: 20px;
+  }
   .faq__title {
     font-size: 40px;
     line-height: 50px;
   }
   .faq-macbook__faq-img {
-    left: -10px;
+    left: 20px;
     top: -70px;
     width: 180px;
   }
   .faq-macbook__macbook-img {
-    width: 470px;
+    width: 550px;
   }
   .bidding-enhanced {
     padding: 50px 0;
@@ -1891,14 +1903,14 @@ button:hover {
   }
   .our-advantages-phone .back-phone {
     top: 65px;
-    left: -110px;
-    width: 450px;
+    left: -90px;
+    width: 400px;
     z-index: -2;
   }
   .our-advantages-phone .front-phone {
     top: 10px;
-    right: -100px;
-    width: 550px;
+    right: -80px;
+    width: 500px;
     z-index: -1;
   }
   .our-advantages__button {
@@ -1934,8 +1946,8 @@ button:hover {
     border-bottom: 4px solid red;
   }
   .our-service-item {
-    margin-top: 0px;
     margin: 0;
+    padding: 0;
   }
   .our-service-list {
     font-size: 25px;
@@ -2161,15 +2173,11 @@ button:hover {
     margin-top: 100px;
   }
   .our-service-list {
-    margin-left: -50px;
-    font-size: 22px;
+    font-size: 20px;
     word-wrap: break-word;
   }
-  .our-service-list:first-child {
-    margin-left: -50px;
-  }
-  .our-service-list:nth-child(2) {
-    margin-left: -50px;
+  .our-service-list .check-circle {
+    margin-right: 10px;
   }
   .our-service__button {
     display: none;
@@ -2196,6 +2204,14 @@ button:hover {
   .become-member-item__text {
     font-size: 20px;
     width: 80%;
+  }
+  .become-member .plyr__control--overlaid {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .become-member .plyr__control svg {
+    width: var(--plyr-control-icon-size, 18px);
   }
   .faq {
     padding: 0;
