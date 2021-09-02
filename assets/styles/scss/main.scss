@@ -10,6 +10,12 @@
     box-sizing: border-box;
 }
 
+body {
+    position: relative;
+    font-family: "Oswald", sans-serif;
+}
+
+
 .container {
     max-width: 1380px;
     height: 100%;
@@ -33,6 +39,19 @@ button {
         color: var(--red);  
     }
 }
+
+.mobile_fixed {
+    position: fixed;
+    z-index: 99999;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    right: 10px;
+    bottom: 50px;
+    font-size: 14px;
+    display: none;
+}
+
 // header
 .header {
     width: 100%;
@@ -118,7 +137,7 @@ button {
             margin-left: 60px;
         }
         &__sup-text {
-            font-family: 'OpenSans';
+            font-family: 'OpenSans', sans-serif;
             font-weight: 600;
             font-style: normal;
             font-display: swap;
@@ -257,7 +276,6 @@ button {
             left: 110px;
             z-index: 2;
             width: 220px;
-
         }
     }
     &__button {
@@ -311,7 +329,7 @@ button {
         content: '';
         background: rgb(255,255,255);
         background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(40,46,62,1) 57%);
-        // z-index: 0;
+        z-index: 0;
         opacity: .9;
     }
 
@@ -411,7 +429,7 @@ button {
         }
         &__text {
             font-size: 24px;
-            font-family: 'openSans';
+            font-family: 'openSans', sans-serif;
             font-weight: 400;
             line-height: 24px;
             color: var(--gray);
@@ -464,15 +482,6 @@ button {
             z-index: 1;
             width: 480px;
         }
-        .mackBook-front {
-            width: 360px;
-            height: 225px;
-            position: absolute;
-            z-index: 5;
-            left: 140px;
-            top: 23px;
-            object-fit: cover;
-        }
     }
     &-item {
         width: 100%;
@@ -493,7 +502,7 @@ button {
             cursor: pointer;
             transition: .3s;
             &__text {
-                font-family: 'OpenSans';
+                font-family: 'OpenSans', sans-serif;
                 font-weight: 600;
                 font-size: 18px;
             }
@@ -512,7 +521,7 @@ button {
         &-info {
             padding: 16px 0 16px 24px;
             &__text {
-                font-family: 'OpenSans';
+                font-family: 'OpenSans', sans-serif;
                 font-weight: 400;
                 font-size: 18px;   
             }
@@ -533,7 +542,7 @@ button {
         margin-left: 75px;
     }
     &-video {
-        width: 577px;
+        width: 90%;
         height: auto;
         background: linear-gradient(0deg, rgba(40, 46, 62, 0.17), rgba(40, 46, 62, 0.17)), url(maxresdefault.jpg), #C4C4C4;
         border: 9px solid #282E3E;
@@ -574,7 +583,7 @@ button {
         color: var(--dark);
     }
     &__text {
-        font-family: 'OpenSans';
+        font-family: 'OpenSans', sans-serif;
         font-weight: 300;
         font-size: 18px;
         color: var(--gray); 
@@ -604,7 +613,7 @@ button {
     background-color: var(--dark);
 
     &-text {
-        font-family: 'FiraSans';
+        font-family: 'FiraSans', sans-serif;
         font-weight: 300;
         font-style: normal;
         font-display: swap;
@@ -668,7 +677,7 @@ button {
             width: 100%;
             height: 100%;
             outline: none;
-            font-family: 'OpenSans';
+            font-family: 'OpenSans', sans-serif;
             font-weight: 400;
             font-size: 16px;
             color: var(--dark);
@@ -683,7 +692,7 @@ button {
             position: absolute;
             left: 0px;
             top: 10px;
-            font-family: 'OpenSans';
+            font-family: 'OpenSans', sans-serif;
             font-weight: 300;
             font-size: 16px;
             color: var(--dark);
@@ -713,7 +722,7 @@ button {
                 display: flex;
                 align-items: center;
                 cursor: pointer;
-                font-family: 'OpenSans';
+                font-family: 'OpenSans', sans-serif;
                 font-weight: 400;
                 font-size: 16px;
                 color: var(--dark);
