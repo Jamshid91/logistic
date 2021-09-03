@@ -2,7 +2,9 @@
 
 @font-face{
     font-family: 'Oswald';
-    src: url(../../fonts/Oswald-ExtraLight.ttf) format('ttf');
+    src: url(../../fonts/Oswaldextralight.ttf) format('truetype'),
+         url(../../fonts/Oswaldextralight.woff) format('woff'), 
+         url(../../fonts/Oswaldextralight.woff2) format('woff2');   
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -10,7 +12,9 @@
 
 @font-face{
     font-family: 'Oswald';
-    src: url(../../fonts/Oswald-Light.ttf) format('ttf');
+    src: url(../../fonts/Oswaldlight.ttf) format('truetype'),
+         url(../../fonts/Oswaldlight.woff) format('woff'), 
+         url(../../fonts/Oswaldlight.woff2) format('woff2'); 
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -19,7 +23,9 @@
 
 @font-face{
     font-family: 'Oswald';
-    src: url(../../fonts/Oswald-Regular.ttf) format('ttf');
+    src: url(../../fonts/Oswaldregular.ttf) format('truetype'),
+         url(../../fonts/Oswaldregular.woff) format('woff'), 
+         url(../../fonts/Oswaldregular.woff2) format('woff2'); 
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -27,14 +33,18 @@
 
 @font-face{
     font-family: 'Oswaldmedium';
-    src: url(../../fonts/Oswaldmedium.woff2) format('woff2');
+    src: url(../../fonts/Oswaldmedium.ttf) format('truetype'),
+         url(../../fonts/Oswaldmedium.woff) format('woff'), 
+         url(../../fonts/Oswaldmedium.woff2) format('woff2'); 
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 @font-face{
     font-family: 'Oswald';
-    src: url(../../fonts/Oswald-SemiBold.ttf) format('ttf');
+    src: url(../../fonts/Oswalddemibold.ttf) format('truetype'),
+         url(../../fonts/Oswaldmedium.woff) format('woff'), 
+         url(../../fonts/Oswaldmedium.woff2) format('woff2'); 
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -42,7 +52,9 @@
 
 @font-face{
     font-family: 'Oswald';
-    src: url(../../fonts/Oswald-Bold.ttf) format('ttf');
+    src: url(../../fonts/Oswaldbold.ttf) format('truetype'),
+         url(../../fonts/Oswaldbold.woff) format('woff'), 
+         url(../../fonts/Oswaldbold.woff2) format('woff2'); 
     font-weight: 700;
     font-style: normal;
     font-display: swap;
