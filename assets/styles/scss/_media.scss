@@ -231,15 +231,15 @@
             line-height: 50px;
         }
         &__text {
+            width: 100%;
         }
         &-buttons button {
             width: 150px;
             height: 45px;
             font-size: 14px;
-        }
-        
-        .btn_submit {
-            margin-left: 25px;
+        }  
+        .form {
+            margin: 25px auto;
         }
     }
 }
@@ -428,10 +428,6 @@
         padding: 50px 0;
         .row {
             margin-left: 20px;
-        }
-        &_mobile {
-            display: flex;
-            flex-wrap: wrap-reverse;
         }
         &-video {
             width: 100%;
@@ -688,6 +684,13 @@
         .btn_submit {
             margin-left: 0px;
             margin-top: 25px;
+        }
+        .form {
+            width: 100%;
+            padding: 25px 0;
+            &-list {
+                width: 90%;
+            }
         }
     }
 

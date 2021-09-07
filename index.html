@@ -349,7 +349,17 @@
     <!-- Bidding Enhanced -->
     <section class="bidding-enhanced">
         <div class="container">
-            <div class="row d-flex align-center bidding-enhanced_mobile">
+            <div class="row">
+                <div class="col-12">                     
+                    <h3 class="bidding-enhanced__title  wow bounceInUp">
+                        Bidding Enhanced
+                    </h3>
+                    <p class="bidding-enhanced__text">
+                        Accessible at your disposal. Don’t sleep on this offer, you can download our app ETL Cargo App and start bidding today! 
+                    </p>
+                </div>
+            </div>
+            <div class="row d-flex align-center justify-content-between bidding-enhanced_mobile">
                 <div class="col-lg-6">
                    <div class="bidding-enhanced-video">
                     <video  id="player" playsinline controls data-poster="/assets/images/png/video.png">
@@ -358,17 +368,49 @@
                       
                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <h3 class="bidding-enhanced__title  wow bounceInUp">
-                        Bidding Enhanced
-                    </h3>
-                    <p class="bidding-enhanced__text">
-                        Accessible at your disposal. Don’t sleep on this offer, you can download our app ETL Cargo App and start bidding today! 
-                    </p>
-                    <div class="bidding-enhanced-buttons">
-                        <button class="btn_joun">Join us</button>
-                        <button class="btn_submit" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Submit</button>
-                    </div>
+                <div class="col-lg-6 d-flex justify-content-end">
+                    <form action="" class="form">
+                        <h5 class="form__title">REGISTER TO START DELIVER</h5>
+                        <div class="form-item">
+                            <div class="form-list">
+                                <input type="text" class="form__input" id="userName" name="user-name" placeholder=" " maxlength="20" required>
+                                <label for="userName" class="form__label">Your name</label>
+                            </div>
+                            <div class="form-list">
+                                <input type="email" class="form__input" id="userEmail" name="user-email" placeholder=" " required>
+                                <label for="userEmail" class="form__label">Your email</label>
+                            </div>
+                            <div class="form-list">
+                                <input type="text" class="form__input" id="phone" name="user-phone" placeholder=" " required>
+                                <label for="phone" class="form__label">Your phone</label>
+                            </div>
+                            <div class="form-list select">
+                                <input type="text" class="form__input" id="selectInp" name="user-select" placeholder=" " required>
+                                <label for="selectInp" class="form__label">Your select</label>
+                                <i class="far fa-chevron-down"></i>
+                                <div class="select-item">
+                                    <div class="option">
+                                        <span class="option__text">Lorem, ipsum - 1.</span>
+                                    </div>
+                                    <div class="option">
+                                        <span class="option__text">Lorem, ipsum - 2.</span>
+                                    </div>
+                                    <div class="option">
+                                        <span class="option__text">Lorem, ipsum - 3.</span>
+                                    </div>
+                                    <div class="option">
+                                        <span class="option__text">Lorem, ipsum - 4.</span>
+                                    </div>
+                                    <div class="option">
+                                        <span class="option__text">Lorem, ipsum - 5.</span>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <button type="submit" class="form__button">Submit</button>
+                        </div>
+                    </form>
+
                 </div>
             </div>
         </div>
@@ -396,8 +438,7 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">REGISTER TO START DELIVER</h5>
-            <i class="fal fa-times close-modal"  data-bs-dismiss="modal" aria-label="Close"></i>
+          
         </div>
         <div class="modal-body">
             <form action="" class="form">
@@ -448,7 +489,6 @@
   
 <!-- mobile fixed join us -->
   <button class="mobile_fixed">Join us</button>
-
 <!-- script -->
     <script src="assets/js/plugins/jquery.js"></script>
     <script src="assets/js/plugins/wow.min.js"></script>
