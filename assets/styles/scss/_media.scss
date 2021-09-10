@@ -733,7 +733,10 @@
                 .phone-icon {
                     margin-right: 4px;
                 }
-            &-item {
+            &-item {            
+                &__button {
+                    margin-top: 20px;
+                }
             }
             
             &-email {
