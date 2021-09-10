@@ -458,9 +458,12 @@
     }
     .header {
     .nav {
+        position: relative;
         &-item {
             &__button {
-                margin-top: 20px;
+                position: absolute;
+                right: 15px;
+                top: 20px;
             }
         }
     }
@@ -731,9 +734,6 @@
                     margin-right: 4px;
                 }
             &-item {
-                &__button {
-                    margin-top: 20px;
-                }
             }
             
             &-email {
