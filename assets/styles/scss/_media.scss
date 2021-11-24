@@ -735,7 +735,7 @@
                 }
             &-item {            
                 &__button {
-                    margin-top: 20px;
+                    // margin-top: 20px;
                 }
             }
             
@@ -930,5 +930,76 @@
         }
     }
 
+    }
+}
+
+@media screen and(max-width: 366px) {
+    .header {
+        .nav {
+            .email-icon,
+                .phone-icon {
+                    margin-right: 4px;
+                }
+            &-item {            
+                &__button {
+                    width: 110px;
+                }
+                &-phone {
+                    margin-top: 15px;
+                }
+            }
+            
+            &-email {
+                &__text {
+                    letter-spacing: 0px;
+                }
+            }
+        }
+        &-title {
+            &__sup-text {
+                font-size: 15px;
+                margin-bottom: 0;
+            }
+            &__text {
+                font-size: 36px;
+                line-height: 50px;
+                // margin-top: -30px !important;
+            }
+            &-store {
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                margin-top: 30px;
+                .googlePlay {
+                    margin-left: 20px;
+                    margin-top: 0px;
+                }
+                .appStore__img,
+                .playStore__img {
+                    width: 95%;
+                }
+            }
+            &-hand {
+                text-align: center;
+                .header-circle {
+                    top: 50px;
+                    right: 50%;
+                    transform: translate(50%);
+    
+                    &__img {
+                        width: 500px;
+                        transition: .5s;
+                    }
+                }
+                .front-phone {
+                    display: none;
+                }
+            }
+            &-hand__img {
+                width: 280px;
+                margin: 0;
+                margin-top: 40px;
+            }
+        }
     }
 }

@@ -2016,9 +2016,6 @@ button:hover {
   .header .nav .phone-icon {
     margin-right: 4px;
   }
-  .header .nav-item__button {
-    margin-top: 20px;
-  }
   .header .nav-email__text {
     letter-spacing: 0px;
   }
@@ -2199,5 +2196,77 @@ button:hover {
   }
   .faq-item-info__text {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 366px) {
+  .header .nav .email-icon,
+  .header .nav .phone-icon {
+    margin-right: 4px;
+  }
+  .header .nav-item__button {
+    width: 110px;
+  }
+  .header .nav-item-phone {
+    margin-top: 15px;
+  }
+  .header .nav-email__text {
+    letter-spacing: 0px;
+  }
+  .header-title__sup-text {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .header-title__text {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .header-title-store {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 30px;
+  }
+  .header-title-store .googlePlay {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  .header-title-store .appStore__img,
+  .header-title-store .playStore__img {
+    width: 95%;
+  }
+  .header-title-hand {
+    text-align: center;
+  }
+  .header-title-hand .header-circle {
+    top: 50px;
+    right: 50%;
+    -webkit-transform: translate(50%);
+        -ms-transform: translate(50%);
+            transform: translate(50%);
+  }
+  .header-title-hand .header-circle__img {
+    width: 500px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+  }
+  .header-title-hand .front-phone {
+    display: none;
+  }
+  .header-title-hand__img {
+    width: 280px;
+    margin: 0;
+    margin-top: 40px;
   }
 }
